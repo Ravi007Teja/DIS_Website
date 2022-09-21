@@ -2084,38 +2084,16 @@ ul.actions.special {
 	padding-top: 0.5em;
 }
 
-.wrapper .title:before {
-	content: '';
-	position: absolute;
-	bottom: -38px;
-	left: -35px;
-	width: 35px;
-	height: 38px;
-	background: url("images/shadow.png");
-}
 
-.wrapper .title:after {
-	-moz-transform: scaleX(-1);
-	-webkit-transform: scaleX(-1);
-	-ms-transform: scaleX(-1);
-	transform: scaleX(-1);
-	content: '';
-	position: absolute;
-	bottom: -38px;
-	right: -35px;
-	width: 35px;
-	height: 38px;
-	background: url("images/shadow.png");
-}
 
 .wrapper.style1 {
-	background: #66ade5 url("images/overlay.png");
+	background: #00B5E2 url("images/overlay.png");
 	color: #eee;
 	color: rgba(255, 255, 255, 0.75);
 }
 
 .wrapper.style1 .title {
-	background: #66ade5 url("images/overlay.png");
+	background: #00B5E2 url("images/overlay.png");
 	color: #fff;
 }
 
@@ -2241,7 +2219,7 @@ ul.actions.special {
 	border-radius: 0.35em;
 	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
 	padding: 0 1.5em 0 1.5em;
-	background-color: #66ade5;
+	background-color: #00B5E2;
 }
 
 #nav>ul>li {
@@ -2348,15 +2326,18 @@ ul.actions.special {
 }
 
 #intro p.style2 {
-	font-weight: 700;
+	font-weight: 400;
 	color: #fff;
 	border-radius: 0.35em;
 	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
-	font-size: 2.75em;
+	font-size: 1.1em;
 	letter-spacing: 0.075em;
 	line-height: 1.35em;
-	padding: 1em 0 1em 0;
+	padding: 1em 1em 1em 1em;
 	margin-bottom: 1em;
+	text-align: justify;
+	width: 80%;
+	display: inline-block;
 }
 
 #intro p.style2 a {
@@ -3071,6 +3052,13 @@ ul.actions.special {
 		line-height: 1.25em;
 		padding: 1.25em;
 	}
+
+		/* Added by Onkar */
+	#intro p.homeimage {
+			width: 10%;
+			display: inline-block;
+	
+		}
 
 	/* Features */
 
