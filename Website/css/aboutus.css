@@ -44,6 +44,8 @@ html {
 
 .title {
   color: grey;
+  font-weight: bold;
+ text-justify: distribute;
 }
 
 .button {
@@ -85,7 +87,7 @@ html {
   -ms-justify-content: center;
   justify-content: center;
   position: relative;
-  height: 24em;
+  height: 35em;
   background: url("../images/banner.jpg") center center;
   background-size: cover;
   padding: 0;
@@ -599,6 +601,8 @@ html {
 #copyright a:hover {
 	color: #fff;
 }
+
+
 
 
 
