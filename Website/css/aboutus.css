@@ -6,6 +6,7 @@ body {
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -22,6 +23,7 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  
 }
 
 .about-section {
@@ -39,7 +41,7 @@ html {
 .container::after, .row::after {
   content: "";
   clear: both;
-  display: table;
+  display:table;
 }
 
 .title {
@@ -87,7 +89,7 @@ html {
   -ms-justify-content: center;
   justify-content: center;
   position: relative;
-  height: 18em;
+  height: 19em;
   background: url("../images/banner.jpg") center center;
   background-size: cover;
   padding: 0;

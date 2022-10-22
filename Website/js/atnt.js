@@ -102,7 +102,9 @@ new Chart(document.getElementById("line-chart"), {
         title: {
             display: true,
             text: 'Customer Churn Trend over the years(value in thousands)'
-        }
+        },
+        responsive:true,
+        maintainAspectRatio:false
     }
 });
 

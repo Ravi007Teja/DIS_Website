@@ -1,42 +1,55 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <!-- meta character set -->
-    <meta charset="utf-8">
-    <!-- Force latest IE rendering engine or request Chrome Frame -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>TheDataScientists</title>
+    <head>
+        <!-- meta character set -->
+        <meta
+        charset="utf-8">
+        <!-- Force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TheDataScientists</title>
 
-    <!-- Mobile Specific Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Mobile Specific Metadata -->
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="css/main.css">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
 
 
-</head>
+    </head>
 
-<body class="homepage is-preload">
+    <body class="homepage is-preload">
 
-    <div id="page-wrapper">
+        <div
+            id="page-wrapper">
 
-        <!-- Header -->
-        <section id="header" class="wrapper">
+            <!-- Header -->
+            <section
+                id="header" class="wrapper">
 
-            <!-- Logo -->
-            <div id="logo">
-                <h1>THE DATA SCIENTISTS</a></h1>
-                <p>WE POWER YOUR DATA SOULUTIONS</p>
+                <!-- Logo -->
+                <div id="logo">
+                    <h1>THE DATA SCIENTISTS</a>
+                </h1>
+                <p>WE POWER YOUR DATA SOLUTIONS</p>
             </div>
 
             <!-- Nav -->
             <nav id="nav">
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
+                    <li class="current">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
 
                 </ul>
             </nav>
@@ -47,7 +60,8 @@
         <!-- Main -->
         <div id="main" class="wrapper style2">
             <div class="title">Our Portfolio</div>
-            <div class="container">
+            <div
+                class="container">
 
                 <!-- Content -->
                 <div id="content">
@@ -56,33 +70,59 @@
                             <h2>Spotify Trends Analysis</h2>
 
                         </header>
-                        <a class="image featured">
-                            <img src="images/spotifyportfolio.jpg" alt="" />
-                        </a>
+                        <!-- Slideshow container -->
+                        <div
+                            class="slideshow-container">
+
+                            <!-- Full-width images with number and caption text -->
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 2</div>
+                                <img src="images/spotify2.png" style="width:100%">
+                                <div class="text">Caption Text</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 2</div>
+                                <img src="images/spotify1.png" style="width:100%">
+                                <div class="text">Caption Two</div>
+                            </div>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                        </div>
                         <p>Spotify's Web API provides access to the song details.
-                            The dataset contains track, playlist, artist details and popularity along with 12 audio
-                            features.
-                            Each track has 12 audio features: confidence measure like acousticness, liveness,
-                            speechiness,
-                            and instrumentalness, as well as perceptual measurements like energy, loudness,
-                            danceability,
-                            and valence (positiveness) and descriptors like duration, tempo, key, and mode. </p>
+                                                        The dataset contains track, playlist, artist details and popularity along with 12 audio
+                                                        features.
+                                                        Each track has 12 audio features: confidence measure like acousticness, liveness,
+                                                        speechiness,
+                                                        and instrumentalness, as well as perceptual measurements like energy, loudness,
+                                                        danceability,
+                                                        and valence (positiveness) and descriptors like duration, tempo, key, and mode.
+                        </p>
                         <p>We explored the data and answered the following questions: Is it possible to classify songs
-                            into
-                            genres with just audio features? Also what are the most important feature to classify songs
-                            into different genres? Based on auditory features, what are the similar playlists?</p>
+                                                        into
+                                                        genres with just audio features? Also what are the most important feature to classify songs
+                                                        into different genres? Based on auditory features, what are the similar playlists?</p>
                         <p>For instance, the heatmap displayed on this page provided these insights: Across all songs
-                            and genres in the dataset,
-                            energy and loudness are fairly highly correlated (0.68). Energy and acousticness are
-                            negatively correlated. Acoustic
-                            music, as we all know, is frequently quiet and takes attentive listening. . That’s why it
-                            makes a negative correlation
-                            with energy and loudness, which makes sense. There is positive correlation between
-                            danceability and valence (happier
-                            songs lead to more dancing). Interestingly, danceability is negatively correlated with
-                            tempo, liveness and energy.
-                            We can observe that there is no significant positive correlation between a single song
-                            feature and its popularity.</p>
+                                                        and genres in the dataset,
+                                                        energy and loudness are fairly highly correlated (0.68). Energy and acousticness are
+                                                        negatively correlated. Acoustic
+                                                        music, as we all know, is frequently quiet and takes attentive listening. . That’s why it
+                                                        makes a negative correlation
+                                                        with energy and loudness, which makes sense. There is positive correlation between
+                                                        danceability and valence (happier
+                                                        songs lead to more dancing). Interestingly, danceability is negatively correlated with
+                                                        tempo, liveness and energy.
+                                                        We can observe that there is no significant positive correlation between a single song
+                                                        feature and its popularity.</p>
 
                     </article>
                 </div>
@@ -93,39 +133,67 @@
                             <h2 style="padding-top: 30px;">Netflix Content Analysis</h2>
 
                         </header>
-                        <a class="image featured">
-                            <img src="images/netflixportfolio.jpg" alt="" />
-                        </a>
-                        <p> Netflix is one of the most popular media and video streaming platforms.
-                            They have over 8000 movies and TV shows available on their site, and they have over 200
-                            million subscribers worldwide as of mid-2021. </p>
+                       <!-- Slideshow container -->
+                       <div
+                       class="slideshow-container">
+
+                       <!-- Full-width images with number and caption text -->
+                       <div class="mySlides2 fade">
+                           <div class="numbertext">1 / 2</div>
+                           <img src="images/netflix1.png" style="width:100%">
+                           <div class="text">Caption Text</div>
+                       </div>
+
+                       <div class="mySlides2 fade">
+                           <div class="numbertext">2 / 2</div>
+                           <img src="images/netflix2.png" style="width:100%">
+                           <div class="text">Caption Two</div>
+                       </div>
+
+                       <!-- Next and previous buttons -->
+                       <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                       <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+                   </div>
+                   <br>
+
+                   <!-- The dots/circles -->
+                   <div style="text-align:center">
+                       <span class="dot" onclick="currentSlide2(1)"></span>
+                       <span class="dot" onclick="currentSlide2(2)"></span>
+                       
+                   </div>
+                        <p>
+                            Netflix is one of the most popular media and video streaming platforms.
+                                                        They have over 8000 movies and TV shows available on their site, and they have over 200
+                                                        million subscribers worldwide as of mid-2021.
+                        </p>
                         <p>The following research topics were addressed from the Netflix data set:
-                        <ul>
-                            <li>Type of content popular among the viewers and popularity of Netflix among other
-                                platforms: Most of the content watched by viewers on Netflix is in the “drama” and
-                                “comedy” genres.
-                                Most of the content watched by the viewers on Netflix is rated TV-MA (Mature Audience
-                                Only) and TV-14 (Parents Cautioned).
-                                For their shows to develop popularity, producers may seek to release content in the
-                                above two categories and ratings.
-                            </li>
-                            <li>The different types of media content available on Netflix, when they were added to the
-                                platform, as well as the countries that produce it.
-                                Most television shows and films were added in the year 2019. The United States, followed
-                                by India, creates the most Netflix content.
-                            </li>
-                            <li>To analyze trends in movies, tv shows, subscriptions, and revenue of Netflix. The
-                                average Netflix film is 89 minutes long,
-                                accounting for 31.56 percent of the overall content. Filmmakers may wish to make films
-                                that are close to 89 minutes in length.
-                                The number of new television shows is increasing, while their average duration (in terms
-                                of seasons) is dropping over time.
-                                There has been a consistent increase in annual subscriptions and revenue growth through
-                                2021. Netflix's revenue is directly
-                                proportional to the number of subscriptions it receives, apart from other things such as
-                                commercials and rentals.
-                            </li>
-                        </ul>
+                            <ul>
+                                <li>Type of content popular among the viewers and popularity of Netflix among other
+                                                                    platforms: Most of the content watched by viewers on Netflix is in the “drama” and
+                                                                    “comedy” genres.
+                                                                    Most of the content watched by the viewers on Netflix is rated TV-MA (Mature Audience
+                                                                    Only) and TV-14 (Parents Cautioned).
+                                                                    For their shows to develop popularity, producers may seek to release content in the
+                                                                    above two categories and ratings.
+                                </li>
+                                <li>The different types of media content available on Netflix, when they were added to the
+                                                                    platform, as well as the countries that produce it.
+                                                                    Most television shows and films were added in the year 2019. The United States, followed
+                                                                    by India, creates the most Netflix content.
+                                </li>
+                                <li>To analyze trends in movies, tv shows, subscriptions, and revenue of Netflix. The
+                                                                    average Netflix film is 89 minutes long,
+                                                                    accounting for 31.56 percent of the overall content. Filmmakers may wish to make films
+                                                                    that are close to 89 minutes in length.
+                                                                    The number of new television shows is increasing, while their average duration (in terms
+                                                                    of seasons) is dropping over time.
+                                                                    There has been a consistent increase in annual subscriptions and revenue growth through
+                                                                    2021. Netflix's revenue is directly
+                                                                    proportional to the number of subscriptions it receives, apart from other things such as
+                                                                    commercials and rentals.
+                                </li>
+                            </ul>
                         </p>
 
                     </article>
@@ -137,66 +205,105 @@
                             <h2>AT&T Telco Churn Analysis</h2>
 
                         </header>
-                        <a class="image featured">
-                            <img src="images/att.png" alt="" />
-                        </a>
-                        <p> Customer churn rate, also known as attrition rate, is the rate at which an organization’s
-                            customer base stops doing business with the company.
-                            It is usually that chunk of user base, who terminate their service contracts with the
-                            company before a stipulated time frame. For an organization to earn profit, their overall
-                            growth rate must be higher than their churn rate.
-                            In the telecommunications business, the churn rate is an extremely useful metric. It
-                            includes operators of satellite or cable television, Internet service providers, and phone
-                            services.</p>
+                        <!-- Slideshow container -->
+                        <div
+                        class="slideshow-container">
+ 
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides3 fade">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="images/boosted.png" style="width:100%">
+                            <div class="text">Caption Text</div>
+                        </div>
+ 
+                        <div class="mySlides3 fade">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="images/twoclass.png" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+                        <div class="mySlides3 fade">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="images/neural.png" style="width:100%">
+                            <div class="text">Caption Text</div>
+                        </div>
+ 
+                        <div class="mySlides3 fade">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="images/logistic.png" style="width:100%">
+                            <div class="text">Caption Two</div>
+                        </div>
+ 
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+                    </div>
+                    <br>
+ 
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide3(1)"></span>
+                        <span class="dot" onclick="currentSlide3(2)"></span>
+                        <span class="dot" onclick="currentSlide3(3)"></span>
+                        <span class="dot" onclick="currentSlide3(4)"></span>
+                    </div>
+                        <p>
+                            Customer churn rate, also known as attrition rate, is the rate at which an organization’s
+                                                        customer base stops doing business with the company.
+                                                        It is usually that chunk of user base, who terminate their service contracts with the
+                                                        company before a stipulated time frame. For an organization to earn profit, their overall
+                                                        growth rate must be higher than their churn rate.
+                                                        In the telecommunications business, the churn rate is an extremely useful metric. It
+                                                        includes operators of satellite or cable television, Internet service providers, and phone
+                                                        services.</p>
                         <p>The following research topics were addressed from the ATnT data set:
-                        <ul>
-                            <li>Our prime focus was to highlight the underlying factors that may be contributing to
-                                possible customer churn in the organization.
+                            <ul>
+                                <li>Our prime focus was to highlight the underlying factors that may be contributing to
+                                                                    possible customer churn in the organization.
 
-                            </li>
-                            <li>The capacity to identify consumers who are dissatisfied with offered solutions allows
-                                organizations to gain insight about product or price plan flaws, operational challenges,
-                                as well as client preferences, in order to prevent churn.
-                            </li>
-                            <li>To be able to identify prospective client scenarios where churn can be avoided and
-                                consumers satisfied, a high level of accuracy is required.
-                            </li>
-                        </ul>
-
-                        <p>For this purpose, we employed multiple predictive models and compared how well they fare
-                            against each other. The models were trained using 75% of the input data, and subsequently
-                            the remaining 25% data was used to assess the trained models and make the predictive
-                            analysis. The precision of the models was evaluated to compare them and then choose the best
-                            for our objective</p>
+                                </li>
+                                <li>The capacity to identify consumers who are dissatisfied with offered solutions allows
+                                                                    organizations to gain insight about product or price plan flaws, operational challenges,
+                                                                    as well as client preferences, in order to prevent churn.
+                                </li>
+                                <li>To be able to identify prospective client scenarios where churn can be avoided and
+                                                                    consumers satisfied, a high level of accuracy is required.
+                                </li>
+                            </ul>
                         </p>
+                        <p>For this purpose, we employed multiple predictive models and compared how well they fare
+                                                        against each other. The models were trained using 75% of the input data, and subsequently
+                                                        the remaining 25% data was used to assess the trained models and make the predictive
+                                                        analysis. The precision of the models was evaluated to compare them and then choose the best
+                                                        for our objective</p>
+                    </p>
 
-                    </article>
-                </div>
+                </article>
             </div>
         </div>
+    </body>
+</html></div><!-- Footer --><section id="footer" class="wrapper" style="padding: 1em 0 1em 0;">
+<div class="title">Talk to our team</div>
 
+<header class="style1" style="padding: 0em 0 0em 0;">
+    <p>
+        Did you like the overview of these case studies? Would you love to get your issues resolved in a
+                            similar manner? Our team would be more than happy to associate with your firm.
+    </p>
+</header>
 
-        <!-- Footer -->
-        <section id="footer" class="wrapper" style="padding: 1em 0 1em 0;">
-            <div class="title">Talk to our team</div>
-
-            <header class="style1" style="padding: 0em 0 0em 0;">
-                <p>
-                    Did you like the overview of these case studies? Would you love to get your issues resolved in a
-                    similar manner? Our team would be more than happy to associate with your firm.
-                </p>
-            </header>
-
-            <div id="copyright" style="margin-top: 0em;padding-top: 0em;" ;>
-                <ul>
-                    <li>&copy; Website</li>
-                    <li><a href="index.html">THE DATA SCIENTISTS</a></li>
-                </ul>
-            </div>
-    </div>
-    </section>
-    <script src="js/button.js"></script>
-
+<div id="copyright" style="margin-top: 0em;padding-top: 0em;" ;>
+    <ul>
+        <li>&copy; Website</li>
+        <li>
+            <a href="index.html">THE DATA SCIENTISTS</a>
+        </li>
+    </ul>
+</div>
+</div>
+</section>
+<script src="js/button.js"></script>
+<script src="js/image_carousel.js"></script>
+<script src="js/image_carousel2.js"></script>
+<script src="js/image_carousel3.js"></script>
 </body>
-
 </html>

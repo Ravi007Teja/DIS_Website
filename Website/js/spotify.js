@@ -32,7 +32,9 @@ new Chart(document.getElementById("polar-chart"), {
         title: {
             display: true,
             text: 'Popularity quotient by genres(in percentage)'
-        }
+        },
+        responsive:true,
+        maintainAspectRatio:false
     }
 });
 

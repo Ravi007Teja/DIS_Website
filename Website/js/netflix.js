@@ -47,7 +47,9 @@ new Chart(document.getElementById("bar-chart-horizontal"), {
         title: {
             display: true,
             text: 'Ratings by content type'
-        }
+        },
+        responsive:true,
+        maintainAspectRatio:false
     }
 });
 
