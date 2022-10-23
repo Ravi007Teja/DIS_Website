@@ -1724,3 +1724,18 @@ ul.actions.special {
 		  .icon.brands:before {
 			  font-family: 'Font Awesome 5 Brands';
 		  }
+
+		  .fade-in-title{
+			animation: fadeIn 1.5s linear;
+		  }
+		  @keyframes fadeIn {
+			0% { opacity: 0; }
+			25%{ opacity: 0.3;}
+			50%{ opacity: 0.6;}
+			75% { opacity: 1;}
+			100% { opacity: 2; }
+		  }
+
+		  .fade-in-tag{
+			animation: fadeIn 3s linear; 
+		  }
