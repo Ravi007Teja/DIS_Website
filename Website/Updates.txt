@@ -1,0 +1,15 @@
+Developments and enhancements made in Assignment 2:
+
+Previous assignment fixes were made:
+  1) Header consistency was ensured in all pages
+  2) Page scroll behaviour was made smoother.
+  3) Navigation bar consistency was ensured for all pages.
+
+New developments:
+
+1) Scroll to the top button was added to all pages.
+2) In the 'Portfolio' page, image carousels were added, using javascript, to create slideshows of multiple images.
+3) 'Services' page was added, and charts were incorporated using Charts.js
+4) CSS changes were implemented using Font awesome icons for 'The Details' section and 'Contact Us' section of the homepage.
+5) In the 'Portfolio' section, content was curated as per the latest images added.
+6) Team contribution was updated in the 'About Us' page, for the 2nd Assignment.
