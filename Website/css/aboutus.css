@@ -36,6 +36,7 @@ html {
 .container {
   padding: 0 16px;
   background-color: #f3f3f3;
+  min-height: 630px;
 }
 
 .container::after, .row::after {
@@ -70,6 +71,23 @@ html {
   .column {
     width: 100%;
     display: block;
+  }
+  .container{
+    min-height: 470px;
+  }
+}
+
+
+@media screen and (max-width: 1180px) {
+  .container{
+    min-height: 600px;
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .container{
+    min-height: 570px;
   }
 }
 
