@@ -1726,7 +1726,7 @@ ul.actions.special {
 		  }
 
 		  .fade-in-title{
-			animation: fadeIn 1.5s linear;
+			animation: fadeIn 2.5s linear;
 		  }
 		  @keyframes fadeIn {
 			0% { opacity: 0; }
@@ -1737,5 +1737,5 @@ ul.actions.special {
 		  }
 
 		  .fade-in-tag{
-			animation: fadeIn 3s linear; 
+			animation: fadeIn 3.5s linear; 
 		  }
